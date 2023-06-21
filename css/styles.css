@@ -197,10 +197,11 @@ img {
   background-color: var(--ocean-color);
 }
 .feature {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  visibility: hidden;
 }
 .feature-list {
   display: flex;
@@ -254,6 +255,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navi-blue-color);
+  margin-bottom: 72px;
 }
 
 .team-list {
